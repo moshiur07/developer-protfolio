@@ -59,7 +59,7 @@ nav li {
     font-weight: 400;
 }
 
-.button {
+.button{
     background: #FD6E0A;
     color: #FFF;
     font-weight: 700;
@@ -161,7 +161,40 @@ main {
     font-size: 25px;
     font-weight: 700;
 }
-.cv-button{
+
+.cv-button {
     text-align: center;
     margin: 40px;
+}
+
+/* footer section */
+footer {
+    display: flex;
+    margin-top: 100px;
+    padding: 130px 130px;
+    background: #FFF8F3;
+    gap: 100px;
+}
+
+#footer-p {
+    text-align: left;
+}
+
+footer a {
+    margin: 24px;
+}
+
+.footer-coloum {
+    width: 50%;
+}
+
+form input,textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 135px 18px 30px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    border: #FFF8F3;
+    border-radius: 10px;
 }
